@@ -1,0 +1,38 @@
+# Java
+target/
+*.class
+*.jar
+*.war
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Environment
+.env
+.env.local
+*.env
+
+# Docker
+docker-compose.override.yml
+
+# Node
+node_modules/
+dist/
+
+# Flutter
+.dart_tool/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
